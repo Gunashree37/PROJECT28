@@ -90,16 +90,11 @@ function draw() {
 }
 
 //create mouseDragged function here
-function mouseDragged()
-{
-  Matter.Body.setPosition(stoneObj.body,{x:mouseX,y:mouseY})
-}
 
-//create mouseReleased function here
-function mouseReleased()
-{
-  Sling1.fly();
-}
+
+
+
+
 
 //create keyPressed function here
 function keyPressed()
